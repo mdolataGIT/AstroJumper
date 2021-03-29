@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.game1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/astro1"
+        android:label="Astro Jumper"
+        android:roundIcon="@drawable/astro1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Game1">
+        <activity android:name=".GameOverActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
